@@ -1,0 +1,11 @@
+package garage;
+
+public class asdfsd {
+	public static void main(String[] args) {
+		
+		int a = 100;
+				int b = 21;
+		System.out.println(a/b);
+	}
+
+}
