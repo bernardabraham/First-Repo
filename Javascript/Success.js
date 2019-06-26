@@ -19,7 +19,7 @@ function registerSuccess() {
     // document.getElementById('ageDiv').innerText = unameObj.age;
 
     for (let key in unameObj) {
-
+        const divElement = document.createElement("div");
         const userElement = document.createElement("p");
         userElement.innerText = key + " : " + unameObj[key];
         userElement.className = "successClass"
