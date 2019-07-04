@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="Hospital" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="qa.com.Hospital.AppTest" time="0.0">
+    <testcase name="testReturnPatients" classname="qa.com.Hospital.AppTest" time="0.0"/>
+    <testcase name="testAddDoctor" classname="qa.com.Hospital.AppTest" time="0.0"/>
+    <testcase name="testReturnDoctors" classname="qa.com.Hospital.AppTest" time="0.0"/>
+  </testsuite>
+</testrun>
