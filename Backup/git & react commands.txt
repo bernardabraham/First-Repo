@@ -1,0 +1,15 @@
+git init
+git add .
+git commit -m "message"
+git remote add origin url
+git push -u origin <branch aka 'master'>
+
+
+React Commands
+npx create-react-app 
+
+netstat -a -o -n
+
+find the one that ends in 3000, example: 5028
+
+taskkill /F /PID 5028

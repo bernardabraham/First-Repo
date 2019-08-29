@@ -1,0 +1,118 @@
+2019-08-23 14:17:49,778 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.0.Final
+2019-08-23 14:17:50,043 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2019-08-23 14:17:50,052 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2019-08-23 14:17:50,158 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) starting
+2019-08-23 14:17:50,159 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_144\jre
+	java.io.tmpdir = C:\Users\Admin\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\LocalInstall\DevOps\Maven\apache-maven-3.3.9/bin;C:\Program Files\nodejs\;;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1
+	jboss.host.name = student04
+	jboss.modules.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = student04
+	jboss.qualified.host.name = student04
+	jboss.server.base.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone
+	jboss.server.config.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\configuration
+	jboss.server.data.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\data
+	jboss.server.deploy.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\data\content
+	jboss.server.log.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\log
+	jboss.server.name = student04
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\configuration/logging.properties
+	module.path = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\modules
+	org.jboss.boot.log.file = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_144\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\jboss-modules.jar -mp C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = GB
+	user.dir = C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\bin
+	user.home = C:\Users\Admin
+	user.language = en
+	user.name = Admin
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+2019-08-23 14:17:50,159 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1\standalone\configuration/logging.properties 
+2019-08-23 14:17:50,739 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.8.0.Final
+2019-08-23 14:17:51,269 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-08-23 14:17:51,304 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 5) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-08-23 14:17:51,387 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-08-23 14:17:51,403 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+2019-08-23 14:17:51,412 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+2019-08-23 14:17:51,485 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-08-23 14:17:51,494 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 37) WFLYRS0016: RESTEasy version 3.6.3.Final
+2019-08-23 14:17:51,510 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 31) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2019-08-23 14:17:51,538 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.12.Final)
+2019-08-23 14:17:51,538 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-08-23 14:17:51,565 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-08-23 14:17:51,565 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2019-08-23 14:17:51,590 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2019-08-23 14:17:51,595 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) WFLYNAM0001: Activating Naming Subsystem
+2019-08-23 14:17:51,611 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-08-23 14:17:51,613 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 49) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2019-08-23 14:17:51,613 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 48) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2019-08-23 14:17:51,616 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 50) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2019-08-23 14:17:51,619 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2019-08-23 14:17:51,630 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 51) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2019-08-23 14:17:51,656 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 47) WFLYSEC0002: Activating Security Subsystem
+2019-08-23 14:17:51,669 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.0.19.Final starting
+2019-08-23 14:17:51,700 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2019-08-23 14:17:51,931 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 52) WFLYUT0014: Creating file handler for path 'C:\Users\Admin\Desktop\Group Project\keycloak-6.0.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-08-23 14:17:52,026 INFO  [io.smallrye.metrics] (MSC service thread 1-8) Converted [2] config entries and added [4] replacements
+2019-08-23 14:17:52,030 INFO  [io.smallrye.metrics] (MSC service thread 1-8) Converted [3] config entries and added [14] replacements
+2019-08-23 14:17:52,074 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 35) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-08-23 14:17:52,101 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-08-23 14:17:52,105 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+2019-08-23 14:17:52,102 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-08-23 14:17:52,112 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2019-08-23 14:17:52,122 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none

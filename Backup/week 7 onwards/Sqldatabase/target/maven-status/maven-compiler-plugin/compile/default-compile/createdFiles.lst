@@ -1,0 +1,5 @@
+qa\com\Controllers\DbfController.class
+qa\com\Entities\Personal.class
+qa\com\Repository\PersonalRepository.class
+qa\com\Repository\DbfRepo.class
+qa\com\Sqldatabase\App.class

@@ -1,0 +1,68 @@
+2019.07.15 14:11:53 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2019.07.15 14:11:53 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2019.07.15 14:11:54 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2019.07.15 14:11:54 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019.07.15 14:11:54 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019.07.15 14:11:54 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.15 14:11:55 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.07.15 14:11:55 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.07.15 14:11:55 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2019.07.15 14:11:55 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8
+2019.07.15 14:11:55 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2019.07.15 14:12:07 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2019.07.15 14:12:07 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2019.07.15 14:12:09 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=qa.com:terria | type=REPORT | id=AWv1f3aq0crgYvA-XEMb
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=495ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=5ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=19ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Execute DB migrations for current project | status=SUCCESS | time=10ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=128ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Verify billing | status=SUCCESS | time=0ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=19 | status=SUCCESS | time=41ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=3ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=506ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=10ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=0ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Detect file moves | status=SUCCESS | time=0ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=52 | status=SUCCESS | time=12ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=16ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=3ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=11ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=1ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Copy custom measures | status=SUCCESS | time=3ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=3ms
+2019.07.15 14:12:10 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=11ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=1ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=2ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=1ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=905ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=1ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=18ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=4ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2019.07.15 14:12:11 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=35ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=0ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=49 | status=SUCCESS | time=16ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=634 | status=SUCCESS | time=381ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=14ms
+2019.07.15 14:12:12 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=1ms
+2019.07.15 14:12:13 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist issues | inserts=1632 | updates=0 | merged=0 | untouched=0 | status=SUCCESS | time=1385ms
+2019.07.15 14:12:13 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=4ms
+2019.07.15 14:12:13 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=4ms
+2019.07.15 14:12:14 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=273ms
+2019.07.15 14:12:14 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2019.07.15 14:12:14 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=4ms
+2019.07.15 14:12:14 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=5ms
+2019.07.15 14:12:14 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=59ms
+2019.07.15 14:12:15 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=1211ms
+2019.07.15 14:12:15 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=0ms
+2019.07.15 14:12:15 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2019.07.15 14:12:15 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2019.07.15 14:12:15 INFO  ce[AWv1f3aq0crgYvA-XEMb][o.s.c.t.CeWorkerImpl] Executed task | project=qa.com:terria | type=REPORT | id=AWv1f3aq0crgYvA-XEMb | status=SUCCESS | time=6077ms

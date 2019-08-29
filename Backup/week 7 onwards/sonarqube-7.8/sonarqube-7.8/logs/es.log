@@ -1,0 +1,76 @@
+2019.07.15 12:37:32 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[(C:)]], net usable_space [176.8gb], net total_space [237.9gb], types [NTFS]
+2019.07.15 12:37:32 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2019.07.15 12:37:32 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [OkY2ZhM1SH2nxIl6ZSb5tw]
+2019.07.15 12:37:32 INFO  es[][o.e.n.Node] version[6.8.0], pid[4328], build[unknown/unknown/65b6179/2019-05-15T20:06:13.172855Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_144/25.144-b01]
+2019.07.15 12:37:32 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\elasticsearch, -Des.path.conf=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\conf\es]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.07.15 12:37:32 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.07.15 12:37:34 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.07.15 12:37:34 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.07.15 12:37:35 INFO  es[][o.e.n.Node] initialized
+2019.07.15 12:37:35 INFO  es[][o.e.n.Node] starting ...
+2019.07.15 12:37:35 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.07.15 12:37:38 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{OkY2ZhM1SH2nxIl6ZSb5tw}{-5iB4Qk5RGKPPGIDQyIctA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.07.15 12:37:38 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{OkY2ZhM1SH2nxIl6ZSb5tw}{-5iB4Qk5RGKPPGIDQyIctA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{OkY2ZhM1SH2nxIl6ZSb5tw}{-5iB4Qk5RGKPPGIDQyIctA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.07.15 12:37:38 INFO  es[][o.e.n.Node] started
+2019.07.15 12:37:38 INFO  es[][o.e.g.GatewayService] recovered [0] indices into cluster_state
+2019.07.15 12:37:45 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [metadatas] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2019.07.15 12:37:45 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.07.15 12:37:45 INFO  es[][o.e.c.m.MetaDataMappingService] [metadatas/Go4wnyDLSmmbUGn7nG0PLg] create_mapping [metadata]
+2019.07.15 12:37:46 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [components] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.07.15 12:37:46 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[components][4]] ...]).
+2019.07.15 12:37:46 INFO  es[][o.e.c.m.MetaDataMappingService] [components/raJJPYdXRQGhCGrefhhVBw] create_mapping [auth]
+2019.07.15 12:37:46 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [projectmeasures] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.07.15 12:37:46 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[projectmeasures][4]] ...]).
+2019.07.15 12:37:46 INFO  es[][o.e.c.m.MetaDataMappingService] [projectmeasures/DpUP9tXHTIi-IlYRGaRHbw] create_mapping [auth]
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [rules] creating index, cause [api], templates [], shards [2]/[0], mappings []
+2019.07.15 12:37:47 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[rules][0]] ...]).
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/gJII4eAYTXCWQinZGkHmow] create_mapping [rule]
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [issues] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.07.15 12:37:47 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[issues][4]] ...]).
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataMappingService] [issues/GEPFrN-pQdaLqW1FWPaf8w] create_mapping [auth]
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [users] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2019.07.15 12:37:47 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[users][0]] ...]).
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataMappingService] [users/E8bvaI2UTYCiSb3jF07Zcw] create_mapping [user]
+2019.07.15 12:37:47 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [views] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.07.15 12:37:48 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[views][4]] ...]).
+2019.07.15 12:37:48 INFO  es[][o.e.c.m.MetaDataMappingService] [views/4IRF-QHNTN2JZYdlrOZVpQ] create_mapping [view]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.07.15 12:38:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.07.15 14:11:28 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[(C:)]], net usable_space [176.6gb], net total_space [237.9gb], types [NTFS]
+2019.07.15 14:11:28 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2019.07.15 14:11:28 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [OkY2ZhM1SH2nxIl6ZSb5tw]
+2019.07.15 14:11:28 INFO  es[][o.e.n.Node] version[6.8.0], pid[2728], build[unknown/unknown/65b6179/2019-05-15T20:06:13.172855Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_144/25.144-b01]
+2019.07.15 14:11:28 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\elasticsearch, -Des.path.conf=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\conf\es]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.07.15 14:11:32 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.07.15 14:11:33 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.07.15 14:11:34 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.07.15 14:11:34 INFO  es[][o.e.n.Node] initialized
+2019.07.15 14:11:34 INFO  es[][o.e.n.Node] starting ...
+2019.07.15 14:11:34 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.07.15 14:11:37 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{OkY2ZhM1SH2nxIl6ZSb5tw}{e0zWfvIbT7WQ6w-VrxzWMQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.07.15 14:11:37 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{OkY2ZhM1SH2nxIl6ZSb5tw}{e0zWfvIbT7WQ6w-VrxzWMQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{OkY2ZhM1SH2nxIl6ZSb5tw}{e0zWfvIbT7WQ6w-VrxzWMQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.07.15 14:11:37 INFO  es[][o.e.n.Node] started
+2019.07.15 14:11:38 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.07.15 14:11:39 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][4], [metadatas][0]] ...]).

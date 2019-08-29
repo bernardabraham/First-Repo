@@ -1,0 +1,176 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2019.07.15 12:37:29 WARN  app[][o.s.application.App] SonarQube will require Java 11+ starting on next version
+2019.07.15 12:37:29 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp
+2019.07.15 12:37:29 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.07.15 12:37:29 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\elasticsearch]: C:\Program Files\Java\jre1.8.0_144\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp -XX:ErrorFile=../logs/es_hs_err_pid%p.log -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\elasticsearch -Des.path.conf=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\conf\es -cp lib/* org.elasticsearch.bootstrap.Elasticsearch
+2019.07.15 12:37:29 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.07.15 12:37:29 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.07.15 12:37:29 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.15 12:37:38 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.07.15 12:37:38 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8]: C:\Program Files\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*;C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\sq-process4554727786330117457properties
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2019.07.15 12:47:45 WARN  app[][o.s.application.App] SonarQube will require Java 11+ starting on next version
+2019.07.15 12:47:45 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:186)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:181)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:143)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:63)
+	at org.sonar.application.App.main(App.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2019.07.15 12:48:05 WARN  app[][o.s.application.App] SonarQube will require Java 11+ starting on next version
+2019.07.15 12:48:05 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:186)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:181)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:143)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:63)
+	at org.sonar.application.App.main(App.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2019.07.15 12:48:15 WARN  app[][o.s.application.App] SonarQube will require Java 11+ starting on next version
+2019.07.15 12:48:15 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:186)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:181)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:143)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:63)
+	at org.sonar.application.App.main(App.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2019.07.15 12:59:07 WARN  app[][o.s.application.App] SonarQube will require Java 11+ starting on next version
+2019.07.15 12:59:07 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+java.nio.file.AccessDeniedException: C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\jna-63116079\jna6969633014893048585.dll
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:186)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:181)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:143)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:63)
+	at org.sonar.application.App.main(App.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2019.07.15 14:11:21 WARN  app[][o.s.application.App] SonarQube will require Java 11+ starting on next version
+2019.07.15 14:11:21 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp
+2019.07.15 14:11:21 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.07.15 14:11:21 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\elasticsearch]: C:\Program Files\Java\jre1.8.0_144\bin\java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp -XX:ErrorFile=../logs/es_hs_err_pid%p.log -Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError -Delasticsearch -Des.path.home=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\elasticsearch -Des.path.conf=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\conf\es -cp lib/* org.elasticsearch.bootstrap.Elasticsearch
+2019.07.15 14:11:21 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.07.15 14:11:22 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.07.15 14:11:22 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.07.15 14:11:39 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.07.15 14:11:39 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8]: C:\Program Files\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*;C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\sq-process7946389335154231419properties
+2019.07.15 14:11:53 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2019.07.15 14:11:53 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8]: C:\Program Files\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*;C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Users\Admin\Desktop\sonarqube-7.8\sonarqube-7.8\temp\sq-process8109601763238051965properties
+2019.07.15 14:12:07 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2019.07.15 14:12:07 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up

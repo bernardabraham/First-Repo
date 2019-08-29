@@ -1,0 +1,2 @@
+2019-08-29 09:03:02,454 WARN  [org.keycloak.events] (default task-4) type=LOGIN_ERROR, realmId=master, clientId=null, userId=null, ipAddress=127.0.0.1, error=expired_code, restart_after_timeout=true
+2019-08-29 09:03:05,181 WARN  [org.keycloak.events] (default task-4) type=LOGIN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, redirect_uri=http://localhost:8080/auth/admin/master/console/#/realms/qa-portal/users, code_id=f98b3bfb-10c2-4743-b4ce-933bfbd8ac28, username=admin1
